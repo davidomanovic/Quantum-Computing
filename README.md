@@ -1,2 +1,5 @@
 # Quantum-Computing
-Programs for Quantum Computing
+Scripts for quantum computing using QiSkit by IBM.
+
+1. QNN - Quantum Neural Network. Quantum neural networks are computational neural network models which are based on the principles of quantum mechanics. From the standpoint of machine learning, QNNs are once more algorithmic models that, like their classical counterparts, may be trained to uncover hidden patterns in data. These models have the ability to load classical data (inputs) into a quantum state and then process it using trainable weight-parameterized quantum gates. A general QNN example including the data loading and processing stages is shown in Figure 1. The weights can then be trained using backpropagation by feeding the measurement's output into a loss function.
+2. QiSkit Quantum Circuitry - The quantum circuit is the core component of quantum computing. A quantum processing unit (QPU) can be used to execute this computational routine one at a time. A circuit will use unitary operations (gates), measurements, and resets to operate on a predetermined quantity of quantum data (we only directly support qubits in Qiskit). Furthermore, actions on classical data, such as real-time calculations and control-flow structures, can be implemented in a quantum circuit by the QPU controllers.
